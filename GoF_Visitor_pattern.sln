@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF_Visitor_pattern", "GoF_Visitor_pattern.csproj", "{D44068E4-9048-44DE-A136-53454CF6DE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44068E4-9048-44DE-A136-53454CF6DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44068E4-9048-44DE-A136-53454CF6DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44068E4-9048-44DE-A136-53454CF6DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44068E4-9048-44DE-A136-53454CF6DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8CF28CC-3F5E-4A59-A415-A163444CF9BA}
+	EndGlobalSection
+EndGlobal
