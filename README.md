@@ -10,6 +10,21 @@ interface with methods for each shape type and implementing those methods for th
 ```csharp
 using System;
 
+// Client code
+class Program
+{
+    static void Main(string[] args)
+    {
+        var shapes = new IShape[] { new Circle(), new Square() };
+        var areaVisitor = new AreaVisitor();
+
+        foreach (var shape in shapes)
+        {
+            shape.Accept(areaVisitor);
+        }
+    }
+}
+
 // Shape hierarchy
 interface IShape
 {
@@ -50,21 +65,6 @@ class AreaVisitor : IVisitor
     public void VisitSquare(Square square)
     {
         Console.WriteLine("Calculating area of Square");
-    }
-}
-
-// Client code
-class Program
-{
-    static void Main(string[] args)
-    {
-        var shapes = new IShape[] { new Circle(), new Square() };
-        var areaVisitor = new AreaVisitor();
-
-        foreach (var shape in shapes)
-        {
-            shape.Accept(areaVisitor);
-        }
     }
 }
 ```
